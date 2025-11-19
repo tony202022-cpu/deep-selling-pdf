@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html dir="rtl" lang="ar">
 <head>
@@ -426,7 +427,7 @@ function generatePDF() {
   const name = prompt("ما اسمك؟", "المستخدم") || "المستخدم";
   
   // Send answers to your Vercel backend
-  fetch('https://deep-selling-fcos7avqt-tonys-projects-235847da.vercel.app/api/report', {
+ fetch('https://deep-selling-mdd7c09io-tonys-projects-235847da.vercel.app/api/report', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ name: name, answers: answers })
